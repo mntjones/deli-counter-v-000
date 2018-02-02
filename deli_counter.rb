@@ -4,9 +4,10 @@ def line(queue)
   if queue.empty?
     puts "The line is currently empty."
   else
-    str = "The line is currently: "
+    str = "The line is currently:"
     queue.each_with_index do |person, index|
-      str += "#{index +1}. #{person} "
+      str += " "
+      str += "#{index +1}. #{person}"
     end
     puts str
   end
