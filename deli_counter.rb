@@ -8,7 +8,7 @@ def line(queue)
     queue.each_with_index do |person, index|
       str += "#{index +1}. #{person} "
     end
-    str
+    puts str
   end
 end
 
