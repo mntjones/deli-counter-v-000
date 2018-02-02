@@ -19,9 +19,9 @@ end
 
 def now_serving(queue)
   if queue.size == 0
-    puts "There is nobody waiting to be served."
+    puts "There is nobody waiting to be served!"
   else
-    puts "Now serving #{queue.first}."
+    puts "Currently serving #{queue.first}."
     queue.shift
   end
 end
