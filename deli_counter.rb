@@ -12,8 +12,9 @@ def line(queue)
   end
 end
 
-def take_a_number(queue)
-
+def take_a_number(queue, person)
+  queue << person
+  puts "Welcome, #{person}. You are number #{queue.size} in line."
 end
 
 def now_serving(queue)
