@@ -6,8 +6,7 @@ def line(queue)
   else
     str = "The line is currently:"
     queue.each_with_index do |person, index|
-      str += " "
-      str += "#{index +1}. #{person}"
+      str += " #{index +1}. #{person}"
     end
     puts str
   end
