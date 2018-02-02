@@ -8,6 +8,7 @@ def line(queue)
     queue.each_with_index do |person, index|
       puts "#{index +1}. #{person}, "
     end
+  end
 end
 
 def take_a_number(queue)
